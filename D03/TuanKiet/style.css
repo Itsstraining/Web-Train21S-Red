@@ -1,0 +1,17 @@
+
+label{
+    font-size: 30;
+}
+
+
+#loginButton{
+    font-size: 500px;
+}
+
+.inputBox{
+    text-align: left;
+    height: 50;
+    width: 500;
+    font-size: 40 ;
+
+}
