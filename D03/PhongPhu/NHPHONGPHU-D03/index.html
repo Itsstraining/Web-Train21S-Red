@@ -1,50 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>LOGIN FORM</title>
+<html>
+    <head>
+        <title>Demo Login D03</title>
+        <link rel="stylesheet" href="./style.css">
 
-    <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" href="./style/styles.css" />
-  </head>
-  <body>
-    <header class="speaker-form-header">
-      <h1>LOGIN FORM</h1>
-    </header>
-
-    <form action='' method='get' class='speaker-form'>
-
-        <div class="form-row">
-            <label for="fullname">Username</label>
-            <input type="text" id="name" name="name">
+    </head>
+    <body>
+        <div id="div-01">
+            <h1>NHPHONGPHU SITE</h1>
+            <img src="./images/logo.jpg" alt="Logo" height="180px"; width="200px">
         </div>
 
-        <div class="form-row">
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password" placeholder="fill your password">
+        <div id="div-02">
+            <table>
+                <tr>
+                    <td><label><b>Username</b></label></td>
+                    <td><input type="text" name="username"></td>
+                </tr>
+
+                <tr>
+                    <td><label><b>Password</b></label></td>
+                    <td><input type="password" name="password"></td>
+                </tr>
+
+            </table>
+                    <label>Remember me!</label>
+                    <input type="checkbox">
+                
+                    <a href="#">Quên mật khẩu!</a>
+
+            <button class="btn">
+                LOGIN
+            </button>
         </div>
-
-        <table>
-            <tr>
-                <td>
-                    <td>
-                        <a href="#">Quên mật khẩu</a>
-                    </td>
-
-                    <td>
-                        <input type="radio">
-                        <label for="radio">Remember me</label>
-                    </td>
-                    
-                </td>
-            </tr>
-        </table>
-
-        <div class="form-row">
-            <button>LOGIN</button>
-        </div>
-
-    </form>
-
-  </body>
+    </body>
 </html>
