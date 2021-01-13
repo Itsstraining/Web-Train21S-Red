@@ -25,13 +25,6 @@ function sum(str01, str02){
     {
         let a= parseInt(str01.charAt(str01.length-count));
         let b= parseInt(str02.charAt(str02.length-count));
-        // if(b)
-        // {
-        //     return b=b;
-        // }else
-        // {
-        //     return b=0;
-        // }
 
         b = (b) ? b : 0;
     tmp = (a + b + ith)
