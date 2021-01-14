@@ -1,0 +1,36 @@
+.top{
+    background-color:gray;
+    flex-direction: column; 
+    padding: 0px;
+    display: inline-block
+
+}
+  
+.button{
+    display: block;
+    width:200px;
+    height: 100px;
+}
+.taskbarbutton{
+    display: block;
+    width: 100px;
+    padding-left: 100px;
+}
+.itempick{
+    height:200px;
+    width: 200px;
+}
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+.button{
+    width: 200px;
+    height: 50px;
+
+}
+.parent {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
