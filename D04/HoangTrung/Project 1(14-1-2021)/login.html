@@ -1,39 +1,33 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title> Đăng nhập</title>
-    </head>
-    <style>
-    .label{
-        font-size: 25px;
-        font-style:italic;
-        padding-left:40%;
-        color: whitesmoke;
-    
-    }
-    #btn_LOGIN{
-    margin-top: 10px;
-    color:darkcyan;
-    padding: 20px 205px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    }
-    </style>
-    <body>
-        <div style="background-image:url(/1567666.png);flex-direction:column;height: 100%;">
-        <h1 style="font-size: 50px;color: whitesmoke;font-style: italic">ĐĂNG NHẬP</h1>
-        <div class="label">
-            <form>
-                <label for="username" >Email đăng nhập</label><br>
-                <input type="email"id="username" name="username"  placeholder="Tài khoản"style="font-size: 40px;"><br>
+<head>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js"></script>
+    <title> Đăng nhập</title>
+
+</head>
+<body>
+    <div>
+    <div class="top">
+        <h1 style="text-align: center;padding-top: 50px;color: floralwhite;font-style: italic;">CỬA HÀNG ĐỒ GỖ MỸ NGHỆ ABCD</h1>
+        <div style="background-color:rgb(94, 100, 105);"></div>
+
+    </div>
+    <div style="display: flex;flex-direction: row;width: 100%;">
+
+        <h1 style="font-size: 50px;color:black;font-style: italic;padding-left: 20%">ĐĂNG NHẬP</h1>
+            <form style="padding-left:2%;">
+                <label for="username">Email đăng nhập</label><br>
+                <input type="email" id="username" name="username" placeholder="Email" style="font-size: 40px;"><br>
                 <label for="password">Mật khẩu</label><br>
-                <input type="password"id="password" name="password" placeholder="Mật khẩu" style="font-size: 40px;"><br>
+                <input type="password" id="password" name="password" placeholder="Mật khẩu"style="font-size: 40px;"><br>
+                <input type="checkbox" id="rememberMe" name="rememberMe" value="">
+                <label for="vehicle1"> Remember me</label><br>
+                <button id="btn_register">Đăng ký</button>
                 <button id="btn_login"> Đăng nhập</button>
             </form>
-        </div>
     </div>
-    
-    </body>
+</div>
+</body>
 
 </html>

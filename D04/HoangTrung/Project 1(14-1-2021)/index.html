@@ -1,52 +1,108 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="./styles.css">
-        <title> Shop</title>
-    </head>
-    <body>
-        <div >
-                <div class="top">
-                    <h1 style="text-align: center;padding-top: 50px;color: floralwhite;font-style: italic;"> SHOP ABCD</h1>
-                    <div style="background-color:slategrey;">
-                        <table class="table" style="padding-left: 150px;">
-                            <tr>
-                                <td><button onclick="open('login.html')" style="width: 200px;height:50px;background-color:whitesmoke; border:none">Login</button></td>
-                                <td><button onclick="open('')"style="width: 200px;height:50px;background-color:whitesmoke; border:none">Order</button></td>
-                                <td><button onclick="open('')" style="width: 200px;height:50px;background-color:whitesmoke; border:none">Customer care</button></td>
-                                <td><button onclick="open('')" style="width: 200px;height:50px;background-color:whitesmoke; border:none">About us</button></td>
-                                <td><button onclick="open('')" style="width: 200px;height:50px;background-color:whitesmoke; border:none">Help</button></td> 
-                                <td><button onclick="open('register.html')" style="width: 200px;height:50px;background-color:whitesmoke; border:none">Register</button></td>                               
-                            </tr>
-                    </table>
-                    </div>          
-                </div class="parent">
-                    <div style="display:flex ;flex-direction:row; width: 200px;">
-                    <div style="display: flex;flex-direction: column; margin-left: 200px;border:1px double steelblue;">
 
-                        <h2 style="padding-left: 50px;">Bàn thờ 1</h2>
-                        <img src="https://khonoithatdep.com/wp-content/uploads/2018/09/Ban-tho-mau-BT003.jpg" alt="" class="itempick ">
-                        <p style="text-align: center;">Giá: 18,000,000</p>
-                        <button style="height:50px;">Thêm vào giỏ</button>
-                    </div>
-                    <div  style="display:flex ;flex-direction:row;">
-                        <div style="display: flex;flex-direction: column; margin-left: 200px;border:1px double steelblue;">
-                        <h2 style="padding-left: 50px;">Bàn thờ 2</h2>
-                        <img src="https://khonoithatdep.com/wp-content/uploads/2018/09/Ban-tho-mau-BT003.jpg" alt="" class="itempick ">
-                        <p style="text-align: center;">Giá: 18,000,000</p>  
-                        <button style="height:50px;">Thêm vào giỏ</button>
-                        </div>
-                        <div  style="display:flex ;flex-direction:row;">
-                            <div style="display: flex;flex-direction: column; margin-left: 200px;border:1px double steelblue;">
-                            
-                            <h2 style="padding-left: 50px;">Bàn thờ 3</h2>
-                            <img src="https://khonoithatdep.com/wp-content/uploads/2018/09/Ban-tho-mau-BT003.jpg" alt="" class="itempick ">
-                            <p style="text-align: center;">Giá: 18,000,000</p>
-                            <button style="height:50px;">Thêm vào giỏ</button>
-                            </div>
+<head>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <title> Shop</title>
+</head>
+
+<body>
+    <div>
+        <div class="top">
+            <h1 style="text-align: center;padding-top: 50px;color: floralwhite;font-style: italic;">CỬA HÀNG ĐỒ GỖ MỸ NGHỆ ABCD</h1>
+            <div style="background-color:rgb(94, 100, 105);">
+                <table class="table">
+                    <tr>
+                        <td><button id="btnLogin" class="taskbarbutton">Login</button> </td>
+                        <td><button id="btnOrder" class="taskbarbutton">Order</button> </td>
+                        <td><button id="btnCustomerCare" class="taskbarbutton">Customer care</button></td>
+                        <td><button id="btnAboutUs" class="taskbarbutton">About us</button></td>
+                        <td><button id="btnHelp" class="taskbarbutton">Help</button></td>
+                        <td><button id="btnRegister" class="taskbarbutton">Register</button> </td>
+                        <td><button id="btnAddItem" class="taskbarbutton">Add item</button> </td>
+                        <td><button id="btnAddToCart" class="taskbarbutton">Add to cart</button> </td>
+                    </tr>
+                </table>
+            </div>
+        </div class="parent">
+        <div class="itemRow">
+            <div class="itemColumn">
+                <h2 style="text-align: center;">Bàn thờ cúng</h2>
+                <img src="https://khonoithatdep.com/wp-content/uploads/2018/09/Ban-tho-mau-BT003.jpg" alt=""
+                    class="itempick ">
+                <p style="text-align: center;">Price: 18 000 000</p>
+                <button class="buttonAddToCart">Add to cart</button>
+            </div>
+            <div class="itemRow">
+                <div class="itemColumn">
+                    <h2 style="text-align: center;">Bộ tam đa</h2>
+                    <img src="https://bizweb.dktcdn.net/thumb/1024x1024/100/374/324/products/bo-tam-da-phuc-loc-tho.jpg?v=1601525618473"
+                        alt="" class="itempick ">
+                    <p style="text-align: center;">Price: 6 500 000</p>
+                    <button class="buttonAddToCart">Add to cart</button>
                 </div>
-                
+                <div class="itemRow">
+                    <div class="itemColumn">
+
+                        <h2 style="text-align: center;">Bộ bàn ghế gỗ</h2>
+                        <img src="https://toplist.vn/images/800px/do-go-my-nghe-co-truyen-thanh-luan-518390.jpg" alt=""
+                            class="itempick ">
+                        <p style="text-align: center;">Price: 18 000 000</p>
+                        <button class="buttonAddToCart">Add to cart</button>
+                    </div>
+                </div>
             </div>
         </div>
+        <div class="itemRow">
+            <div class="itemColumn">
+                <h2 style="text-align: center;">Bộ trà</h2>
+                <img src="https://tuonggocaocap.com.vn/wp-content/uploads/2016/10/tuonggo97.jpg" alt=""
+                    class="itempick ">
+                <p style="text-align: center;">Price: 4 000 000</p>
+                <button class="buttonAddToCart">Add to cart</button>
+            </div>
+            <div class="itemColumn">
+                <h2 style="text-align: center;">Khung hình </h2>
+                <img src="https://salt.tikicdn.com/ts/product/c8/69/aa/46b4fc4291729572aa970ef603f5df19.jpg" alt=""
+                    class="itempick ">
+                <p style="text-align: center;">Price: 3 000 000</p>
+                <button class="buttonAddToCart">Add to cart</button>
+            </div>
+            <div class="itemColumn">
+                <h2 style="text-align: center;">Dầu không khói</h2>
+                <img src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_600,h_450/https://dothobattrang.vn/wp-content/uploads/2017/12/dau-dot-khong-khoi-huong-luu-ly-1.jpg"
+                    alt="" class="itempick ">
+                <p style="text-align: center;">Price: 24 000</p>
+                <button class="buttonAddToCart">Add to cart</button>
+            </div>
+
+        </div>
+        <div class="itemRow">
+            <div class="itemColumn">
+                <h2 style="text-align: center;">Kệ đôn</h2>
+                <img src="https://hinhmoc.com/wp-content/uploads/2019/12/don-go-vuong-70cm.jpg" alt=""
+                    class="itempick ">
+                <p style="text-align: center;">Price: 1 700 000</p>
+                <button class="buttonAddToCart">Add to cart</button>
+            </div>
+            <div class="itemColumn">
+                <h2 style="text-align: center;">Ghế đôn </h2>
+                <img src="https://www.sieuthigo.com/userfiles/product_1310625885%20copy(1).jpg" alt=""
+                    class="itempick ">
+                <p style="text-align: center;">Price: 1 000 000</p>
+                <button class="buttonAddToCart">Add to cart</button>
+            </div>
+            <div class="itemColumn">
+                <h2 style="text-align: center;">Đôn gỗ 3 tầng</h2>
+                <img src="https://salt.tikicdn.com/ts/product/2b/30/a6/3a5a75cd133bf22b53404a2786e90b76.jpg" alt=""
+                    class="itempick ">
+                <p style="text-align: center;">Price: 2 400 000</p>
+                <button class="buttonAddToCart">Add to cart</button>
+            </div>
+
+        </div>
     </div>
-    </body>
+</body>
+
 </html>
