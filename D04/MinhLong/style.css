@@ -61,8 +61,9 @@
       width: 100%;
     }
   }
-  .footer{
+  #div1{
       background-color: lightskyblue;
       padding: 5 10 5 10;
       border-style: double;
+      bottom:  0;
   }

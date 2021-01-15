@@ -2,6 +2,7 @@
     background-color:gray;
     flex-direction: column; 
     padding: 0px;
+    width: 100%;
     display: inline-block
 
 }
