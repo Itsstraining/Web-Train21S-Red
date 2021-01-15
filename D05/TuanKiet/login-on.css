@@ -1,0 +1,36 @@
+
+label{
+    font-size: 30;
+}
+
+
+#loginButton{
+    font-size: 500px;
+}
+
+.inputBox{
+    text-align: left;
+    height: 5%;
+    width: 50%;
+    font-size: 30 ;
+
+}
+
+.header{
+    border-bottom: 1px solid black;
+}
+
+#body{
+    background-color: lightgray;
+}
+
+.Form{
+    margin-left: 10%; 
+    background-color: lightgray;
+    text-align: center;
+}
+
+.button{
+    font-size: 20; 
+    margin-top: 5%;
+}

@@ -1,0 +1,46 @@
+<html>
+    <body>
+        <head>
+            <title>Dang Nhap</title>
+            <link rel="stylesheet" href="./login-on.css">
+            
+
+        </head>
+        <div class="header">
+            <h1>MỘT ỨNG DỤNG NÀO ĐÓ</h1>
+        </div>
+        <div>
+            <div style="padding: 25%;padding-top: 5%; margin-top: 0;">
+                <form class="Form" action="">
+                    <H1 > ĐĂNG NHẬP</H1>
+                    <br>
+                    <label  for="username">Tên Tài Khoản</label>
+                    <br>
+                    <input class="inputBox" id="username"type="text">
+                    <br>
+                    <label for="password">Mật khẩu</label>
+                    <br>
+                    <input class="inputBox" id="password" type="password">
+                    <br>
+                    <a href="">Quên mật khẩu?</a>
+                    <br>
+                    <button id="Btn" class="button">Đăng Ký</button>
+                    <button id="loginBtn" class="button">Đăng Nhập</button>
+                </form>  
+
+            </div>
+            
+        </div>
+    <script>
+        document.getElementById("loginBtn").onclick = () => {
+            location.href("www.google.com");
+            alert("Đăng nhập thành công");
+
+        }
+        document.getElementById("Btn").onclick = () => {
+            location.href("./register.html");
+        }
+    </script>
+
+    </body>
+</html>
