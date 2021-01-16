@@ -119,12 +119,12 @@
         if (this.timeout == null) {
           this.schedule()
           this.button.textContent = "Stop"
-          this.robotElt.firstChild.src = tempUrl_stand
+          this.robotElt.firstChild.src = tempUrl_moving
         } else {
           clearTimeout(this.timeout)
           this.timeout = null
           this.button.textContent = "Start"
-          this.robotElt.firstChild.src = tempUrl_moving
+          this.robotElt.firstChild.src = tempUrl_stand
         }
       }
     }
