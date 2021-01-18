@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    background: #091921;
+}
+.calculator{
+    position: relative;
+    display: grid;
+}
+.calculator .value
+{
+    grid-column: span 4;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+}
+.calculator span{
+    display: grid;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    background:  #0c2935;
+    place-items: center;
+    border: 1px solid
+}
