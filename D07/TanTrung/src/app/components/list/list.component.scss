@@ -1,0 +1,12 @@
+.List{
+    display: flex;
+    flex-wrap: wrap;
+}
+app-items{
+    flex: 1 1 300px;
+    border-radius: 10px;
+    border-style: solid;
+    font-size: 2rem;
+    text-align: center;
+    margin: 2px;
+}

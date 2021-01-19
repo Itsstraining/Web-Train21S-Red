@@ -1,0 +1,9 @@
+
+    <img src= {{item.url}}>
+    <h4>ID:  {{item.id}}</h4>
+    <h4>Tên: {{item.name}}</h4>
+    <h4>Giá: {{item.unitPrice}}</h4>
+    <h4>Discount: {{item.discount}}</h4>
+    <h4 *ngIf = "!item.Instock">Tình trạng: hết hàng</h4>
+    <h4 *ngIf = "item.Instock">Tình trạng: còn hàng</h4>
+
