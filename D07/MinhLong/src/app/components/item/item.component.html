@@ -1,0 +1,12 @@
+
+<div class="div1">
+    <div class="div2">
+    <h1>Item</h1>
+    <div>name: {{item.name}} </div>
+    <div>id: {{item.id}}</div>
+    <div>discount: {{item.discount}} </div>
+    <div *ngIf="item.outOfStock" >stock status: hết hàng </div>
+    <div *ngIf="!item.outOfStock" >stock status: còn hàng </div>
+    <div>price: {{item.unitPrice}} VND </div>
+    </div>
+</div>

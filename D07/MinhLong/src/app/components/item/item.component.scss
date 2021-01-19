@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+  }
+
+div{
+    margin: 0;
+}
+
+.div1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.div2{
+    background-color: seashell;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    border: solid;
+    padding: 0 0 0 10px;
+    font-size: x-large;
+    
+}
+
+
