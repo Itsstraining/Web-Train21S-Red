@@ -1,0 +1,29 @@
+.navBar a{
+    float: left;
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px ;
+    text-decoration: indianred;
+    font-size: x-large;
+    
+}
+.navBar{
+    overflow: hidden;
+    background-color:lightgray;
+    border-style: double;
+    
+}
+.navBar a:hover{
+    background-color:lightskyblue;
+    color:white;
+}
+
+// .icon1{
+//     margin-left: 674.1px;
+//     padding: 0;
+// }
+// .icon2{
+//     padding: 0;
+// }
+
