@@ -1,0 +1,15 @@
+<div class="div1">
+    <div class="div2">
+        <img [src]="item.imgUrl" alt="Laptop image">
+    </div>
+
+    <div class="con">
+        <h4><b>Item 01</b></h4>
+        <div>{{item.id}} </div>
+        <div>Name: {{item.name}} </div>
+        <div *ngIf="item.outOfStock">Status: Out of stock </div>
+        <div *ngIf="!item.outOfStock">Status: In stock </div>
+        <div>Discount: {{item.discount*100}}% </div>
+        <div>Price: {{item.unitPrice*1000}}VND </div>
+    </div>
+</div>
