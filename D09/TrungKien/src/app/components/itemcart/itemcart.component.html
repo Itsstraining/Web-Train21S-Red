@@ -1,0 +1,11 @@
+
+<div class="card">
+    <img [src]="itemCart.item.imgURL" alt="Avatar" style="width:100%">
+    <div class="container">
+      <h4><b>{{itemCart.item.name}}</b></h4> 
+      <p>{{itemCart.item.price * 1000 + "VND"}}</p>
+        <button (click) = "themSoLuong(itemCart.item)">Thêm Vào Giỏ Hàng</button>
+        <p>{{itemCart.quantities}}</p>
+        <button (click) = "truSoLuong(itemCart.item)">Thêm Vào Giỏ Hàng</button>
+    </div>
+  </div>
