@@ -1,0 +1,22 @@
+<!-- <div>
+    <div>
+        <img [src]="item.imgURL" alt="item.name">
+    </div>
+    <div>
+        <p>Name: {{item.name}}</p>
+        <p>{{item.price * 1000 + "VND"}}</p>
+        <p *ngIf = "item.status">còn hàng</p>
+        <p *ngIf = "!item.status">hết hàng</p>
+    </div>
+</div> -->
+
+<div class="card">
+    <img [src]="item.imgURL" alt="Avatar" style="width:100%">
+    <div class="container">
+      <h4><b>{{item.name}}</b></h4> 
+      <p>{{item.price * 1000 + "VND"}}</p>
+        <p *ngIf = "item.status">Còn hàng</p>
+        <p *ngIf = "!item.status">Hết hàng</p>
+        <button (click) = "muahang(item)">Thêm Vào Giỏ Hàng</button>
+    </div>
+  </div>
