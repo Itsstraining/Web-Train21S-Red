@@ -1,0 +1,9 @@
+<div class="Item">
+    <img [src]= 'itemCart.item.url'>
+    <h4>ID:  {{itemCart.item.id}}</h4>
+    <h4>Tên: {{itemCart.item.name}}</h4>
+    <h4>Thành tiền: {{itemCart.item.unitPrice}} x {{itemCart.quantity}} = {{itemCart.money()}}</h4>
+    <h4>Discount: {{itemCart.item.discount}}x</h4>
+    <h4 *ngIf = "!itemCart.item.Instock">Tình trạng: hết hàng</h4>
+    <h4 *ngIf = "itemCart.item.Instock">Tình trạng: còn hàng</h4>
+</div>
