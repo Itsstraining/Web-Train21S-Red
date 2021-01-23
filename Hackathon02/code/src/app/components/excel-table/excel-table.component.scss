@@ -1,0 +1,29 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+table{
+    background-color: white;
+}
+
+td{
+    padding: 10px;
+    text-align: center;
+}
+
+input{
+    width: 90%;
+    border: none
+}
+
+input:focus,
+select:focus{
+    outline: none;
+}
+
+
+
+
+
+
