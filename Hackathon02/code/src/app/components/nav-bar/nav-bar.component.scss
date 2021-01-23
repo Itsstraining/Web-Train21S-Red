@@ -1,0 +1,84 @@
+.navBar p{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px ;
+    text-decoration: indianred;
+    font-size: 20px;
+    margin: -1px;
+}
+
+.navBar{
+    overflow: hidden;
+    background-image:url('https://i.imgur.com/kV2EA7S.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;    
+    border: 2px solid;
+    border-bottom: 0px;
+    border-top-right-radius: 5px ;
+    border-top-left-radius: 5px ;
+}
+
+
+
+
+// .navBar p:hover{
+//     background-color:lightskyblue;
+//     color:white;
+// }
+
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+// * {
+//   margin: 0px;
+//   padding: 0px;
+//   box-sizing: border-box;
+// }
+
+// main {
+//     height: 50vh;
+//      display: flex;
+//      justify-content: center;
+//     background-color: lightskyblue;
+//     margin: 0px;
+//   }
+
+// nav {
+//   height: 3rem;
+//   width: 60em;
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-around;
+//   border-radius: 4rem;
+// }
+
+// button {
+//   height: inherit;
+//   width: 25%;
+//   border: none;
+//   outline: none;
+//   cursor: pointer;
+//   font-family: 'Poppins', sans-serif;
+//   font-size: 2rem;
+//   color: pink;
+// }
+
+// button#active { 
+//   color: lightcoral;
+// }
+
+// button.first {
+//   border-radius: 4rem 0 0 4rem;
+// }
+
+// button.last {
+//   border-radius: 0 4rem 4rem 0;
+// }
+
+// button:hover {
+//   transition: all 1s ease; 
+//   color: white;
+//   background-color: pink;
+// }
