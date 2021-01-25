@@ -1,0 +1,21 @@
+<div class="card">
+    <div class="img">
+        <img [src]="cartItem.item.imgUrl" alt="Laptop image" style="width:60%">
+    </div>
+
+    <div class="container">
+        <h4><b>Item 01</b></h4>
+        <p>ID: {{cartItem.item.id}}</p>
+        <p>Name: {{cartItem.item.name}}</p>
+        <p>Discount: {{cartItem.item.discount}}</p>
+        <p>Amount: {{cartItem.quantity}}</p>
+        <p>Price total: {{cartItem.money()}}</p>
+        <div class="bt1">
+        <button (click) ="countChange(cartItem.item)">+</button>
+        <p>{{cartItem.quantity}}</p>
+        <button (click) ="countChangeRemove(cartItem.item)">-</button> 
+        <p>Total: {{cartItem.item.unitPrice*1000}} VND x {{cartItem.quantity}} = {{cartItem.money()}} VND</p>
+        </div>
+    </div>
+</div>
+

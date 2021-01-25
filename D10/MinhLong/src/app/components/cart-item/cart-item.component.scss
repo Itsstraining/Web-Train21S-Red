@@ -1,0 +1,33 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50%;
+    border-radius: 5px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .img {
+    border-radius: 5px 5px 0 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+  
+  .container {
+    padding: 2px 16px 0 10px;
+    background-color: lightskyblue;
+    font-size: medium;
+    width: 80%;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  
