@@ -1,0 +1,22 @@
+<div class="div1">
+    <div class="img1">
+    <img [src]="item.imgUrl" alt="Laptop image" width="95%" height="100%">
+    </div>
+
+    <!-- <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTPZjl6JCfvGtyrT5uuf_eRqnTf5iwz85BMUzJtZaUHh0DrFN9f65wOno4XDLugwRXylUrjONl9uek&usqp=CAc"
+            alt="Laptop image"> -->
+
+
+    <div class="con">
+        <h4><b>Item 01</b></h4>
+        <p>ID: {{item.id}}</p>
+        <p>Name: {{item.name}}</p>
+        <p *ngIf="item.outOfStock">Status: Out of stock</p>
+        <p *ngIf="!item.outOfStock">Status: In stock</p>
+        <p>Discount: {{item.discount*100}}%</p>
+        <p>Price: {{item.unitPrice*1000}}VND</p>
+        <div  (click) ="addToCart(item)"> 
+            <button>Add to cart</button>
+        </div>
+    </div>
+</div>

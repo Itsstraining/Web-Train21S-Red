@@ -1,0 +1,14 @@
+<div class="navBar">
+    <a routerLink = "">Home</a>
+    <a (click) ="clickToCart()">Cart</a>
+    <a [routerLink] = "'cartPage'">Products</a>
+    <a href="#">Contact</a>
+    <a href="#">Account</a>
+    <a href="#">Register</a>
+    <a (click) ="login()" >Login</a>
+    <a (click) ="logout()">Logout</a>
+</div>
+
+<div><h3>{{x.displayName}}</h3>
+    <h3>{{x.email}}</h3>
+</div>
