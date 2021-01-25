@@ -1,0 +1,19 @@
+<ul>
+    <li><a routerLink=''>Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a routerLink='cartpage'>CartItem</a></li>
+    <li *ngIf="state == undefined">
+      <a><button (click)='login()'>Login bro!</button></a> 
+    </li>
+     <h1 *ngIf="state != undefined">
+      {{state.displayName}}
+      <img src="{{state.photoURL}}">
+    </h1>
+    <h1 *ngIf="state != undefined">
+    <a><button (click)='signout()'>Sign out!</button></a> 
+    </h1>
+
+
+
+ </ul>
+ 
